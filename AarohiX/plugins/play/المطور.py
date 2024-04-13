@@ -9,7 +9,7 @@ import config
 )
 async def mmmezat(client, message):
     await message.reply_text(
-        f"""مرحبًا بك عزيزي {message.from_user.mention} في قسم مميزات سورس cr ميوزك\nهنا تكتب الاوامر """,
+        f"""مرحبًا بك عزيزي {message.from_user.mention} """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -27,12 +27,12 @@ async def mmmezat(client, message):
     )
 
 @app.on_message(
-    command(["المطور", "السورس", "المصنع"])
+    command(["المطور"])
 )
 async def maker(client: Client, message: Message):
     await message.reply_photo(
         photo="https://te.legra.ph/file/08cec0a2a844713e1624a.jpg",
-        caption="~ Team freedom \n~ Dav Source",
+        caption="- SLiDaR .",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
