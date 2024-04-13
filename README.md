@@ -1,6 +1,6 @@
 
 
 <h2 align="center">
-    ──「 ᴀᴀʀᴜ ✘ ᴍᴜsɪᴄ ᴠ2 」──
+    - SLiDaR .
 </h2>
 
