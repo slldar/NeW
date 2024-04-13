@@ -17,7 +17,7 @@ demote = ["demote", "lelo"]
 
 # ========================================= #
 
-@app.on_message(filters.command(["promote", "demote", "fullpromote"]) & admin_filter)
+#@app.on_message(filters.command(["promote", "demote", "fullpromote"]) & admin_filter)
 async def handle_admin_commands(_, message):
     reply = message.reply_to_message
     chat_id = message.chat.id
